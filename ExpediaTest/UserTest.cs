@@ -22,6 +22,7 @@ namespace ExpediaTest
 		public void TestThatUserInitializes()
 		{
 			Assert.AreEqual("Bob Dole", target.Name);
+           
 		}
 		
 		[Test()]
@@ -50,6 +51,7 @@ namespace ExpediaTest
 		{
 			target.book(new Flight(StartDate, EndDate, 0));
 			Assert.AreEqual(1, target.Bookings.Count);
+         
 		}
 		
 		[Test()]

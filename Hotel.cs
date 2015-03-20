@@ -11,7 +11,7 @@ namespace Expedia
 		public double getBasePrice ()
 		{
 			return 45 * numberOfNightsToRent;
-		}
+        }
 		#endregion
 		
 		public Hotel (int nightsToRent)

@@ -17,8 +17,7 @@ namespace Expedia
 		public double getBasePrice ()
 		{
 			var lengthOfSpread = (dateThatFlightReturns - dateThatFlightLeaves).Days;
-			
-			return 200 + lengthOfSpread*20;
+            return 200 + lengthOfSpread*20;
 		}
 		#endregion
 		
